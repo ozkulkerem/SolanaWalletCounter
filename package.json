@@ -1,0 +1,24 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "keygen": "ts-node ./keygen.ts",
+    "call_program": "ts-node ./call_program.ts",
+    "read" : "ts-node ./read_wallet.ts",
+    "decode" : "ts-node ./sk_decode.ts",
+    "airdrop" : "ts-node ./airdrop.ts"
+  },
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.95.0",
+    "@types/node": "^20.14.10",
+    "bs58": "^6.0.0",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
